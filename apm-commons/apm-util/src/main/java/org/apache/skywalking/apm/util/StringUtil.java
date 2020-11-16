@@ -20,6 +20,9 @@ package org.apache.skywalking.apm.util;
 
 import java.util.function.Consumer;
 
+/**
+ *
+ */
 public final class StringUtil {
     public static boolean isEmpty(String str) {
         return str == null || str.length() == 0;
